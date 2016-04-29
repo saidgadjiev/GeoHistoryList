@@ -19,7 +19,6 @@ namespace GeoList
 	[Activity (Label = "GeoList", MainLauncher = true, Icon = "@mipmap/icon")]
 	public class MainActivity : Activity, ILocationListener
 	{
-		static readonly string TAG = "X:" + typeof (MainActivity).Name;
 		Location _currentLocation;
 		LocationManager _locationManager;
 		RecyclerView _recyclerView;
@@ -38,19 +37,20 @@ namespace GeoList
 			SetContentView(Resource.Layout.Main);
 			Xamarin.Forms.Forms.Init (this, bundle);
 
+			_database = new GeoLocationDatabase ();
+			_receiver = new GeoListReceiver (this);
 			_recyclerView = FindViewById<RecyclerView> (Resource.Id.recycler_view);
+			_recyclerView.AddItemDecoration (new GeoListItemDecoration (this, LinearLayoutManager.Vertical));
 			_layoutManager = new LinearLayoutManager (this);
 			_recyclerView.SetLayoutManager (_layoutManager);
 			_latitudeText = FindViewById<TextView> (Resource.Id.latitude);
 			_longitudeText = FindViewById<TextView> (Resource.Id.longitude);
 
-			_database = new GeoLocationDatabase ();
 			StartService(new Intent(this, typeof(GeoListManager)));
-			InitializeLocationManager();
 			IntentFilter filter = new IntentFilter (GeoListReceiver.PROCESS_RESPONSE);
 			filter.AddCategory (Intent.CategoryDefault);
-			_receiver = new GeoListReceiver (this);
 			LocalBroadcastManager.GetInstance (this).RegisterReceiver (_receiver, filter);
+			InitializeLocationManager();
 		}
 		protected override void OnResume()
 		{
@@ -88,18 +88,18 @@ namespace GeoList
 			}
 		}
 
-		public async void OnLocationChanged(Location location)
+		public void OnLocationChanged(Location location)
 		{
 			if (_isFirstStart) {
 				_currentLocation = location;
-				_latitudeText.Text = string.Format ("{0:f6}", _currentLocation.Latitude);
-				_longitudeText.Text = string.Format ("{0:f6}", _currentLocation.Longitude);
+				_latitudeText.Text = string.Format ("{0:f3}", _currentLocation.Latitude);
+				_longitudeText.Text = string.Format ("{0:f3}", _currentLocation.Longitude);
 
 				GeoLocation geoLocation = new GeoLocation();
 
 				geoLocation.longitude = _currentLocation.Longitude;
 				geoLocation.latitude = _currentLocation.Latitude;
-				//_database.addGeoLocation (geoLocation);
+				_database.addGeoLocation (geoLocation);
 				_isFirstStart = false;
 			}
 		}

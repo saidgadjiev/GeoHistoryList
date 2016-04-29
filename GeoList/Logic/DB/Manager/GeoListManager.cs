@@ -5,41 +5,40 @@ using System.Collections.Generic;
 using Android.Content;
 using Android.Support.V4.Content;
 using Android.OS;
+using System.Collections;
 
 namespace GeoList
 {
 	[Service]
 	public class GeoListManager: IntentService
 	{
-		IList<IParcelable> fakeData = new List<IParcelable>();
-
 		public GeoListManager ()
 		{
 		}
 
-		public void prepareTestData() {
-			for (int i = 0; i < 10; i++) {
-				GeoLocation location = new GeoLocation ();
-
-				location.latitude = 65.1233;
-				location.longitude = 23.423423;
-				fakeData.Add (location);
+		public static IList<IParcelable> ConvertToParcelableIListOf(IList<GeoLocation> iList)
+		{
+			IList<IParcelable> result = new List<IParcelable>();
+			foreach(GeoLocation value in iList)
+			{
+				result.Add(value);
 			}
+
+			return result;
 		}
 
 		#region implemented abstract members of IntentService
 
 		protected override void OnHandleIntent (Android.Content.Intent intent)
 		{
-			//GeoLocationDatabase database = new GeoLocationDatabase ();
+			GeoLocationDatabase database = new GeoLocationDatabase ();
 
-			//IEnumerable<GeoLocation> geoLocations = database.getGeoLocations ();
-			prepareTestData();
+			IList<IParcelable> geoLocations = ConvertToParcelableIListOf(database.getGeoLocations ());
 			Intent broadcastIntent = new Intent();
 
 			broadcastIntent.SetAction (GeoListReceiver.PROCESS_RESPONSE);
 			broadcastIntent.AddCategory (Intent.CategoryDefault);
-			broadcastIntent.PutParcelableArrayListExtra ("geoLocationList", fakeData);
+			broadcastIntent.PutParcelableArrayListExtra ("geoLocationList", geoLocations);
 			SendBroadcast (broadcastIntent);
 			LocalBroadcastManager.GetInstance (this).SendBroadcast (broadcastIntent);
 			Log.Debug ("IntentService", "Yes");

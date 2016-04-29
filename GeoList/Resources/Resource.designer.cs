@@ -986,32 +986,32 @@ namespace GeoList
 		public partial class Color
 		{
 			
-			// aapt resource value: 0x7f0a0047
-			public const int abc_background_cache_hint_selector_material_dark = 2131361863;
+			// aapt resource value: 0x7f0a004b
+			public const int abc_background_cache_hint_selector_material_dark = 2131361867;
 			
-			// aapt resource value: 0x7f0a0048
-			public const int abc_background_cache_hint_selector_material_light = 2131361864;
+			// aapt resource value: 0x7f0a004c
+			public const int abc_background_cache_hint_selector_material_light = 2131361868;
 			
-			// aapt resource value: 0x7f0a0049
-			public const int abc_color_highlight_material = 2131361865;
+			// aapt resource value: 0x7f0a004d
+			public const int abc_color_highlight_material = 2131361869;
 			
 			// aapt resource value: 0x7f0a000d
 			public const int abc_input_method_navigation_guard = 2131361805;
 			
-			// aapt resource value: 0x7f0a004a
-			public const int abc_primary_text_disable_only_material_dark = 2131361866;
-			
-			// aapt resource value: 0x7f0a004b
-			public const int abc_primary_text_disable_only_material_light = 2131361867;
-			
-			// aapt resource value: 0x7f0a004c
-			public const int abc_primary_text_material_dark = 2131361868;
-			
-			// aapt resource value: 0x7f0a004d
-			public const int abc_primary_text_material_light = 2131361869;
-			
 			// aapt resource value: 0x7f0a004e
-			public const int abc_search_url_text = 2131361870;
+			public const int abc_primary_text_disable_only_material_dark = 2131361870;
+			
+			// aapt resource value: 0x7f0a004f
+			public const int abc_primary_text_disable_only_material_light = 2131361871;
+			
+			// aapt resource value: 0x7f0a0050
+			public const int abc_primary_text_material_dark = 2131361872;
+			
+			// aapt resource value: 0x7f0a0051
+			public const int abc_primary_text_material_light = 2131361873;
+			
+			// aapt resource value: 0x7f0a0052
+			public const int abc_search_url_text = 2131361874;
 			
 			// aapt resource value: 0x7f0a000e
 			public const int abc_search_url_text_normal = 2131361806;
@@ -1022,11 +1022,11 @@ namespace GeoList
 			// aapt resource value: 0x7f0a0010
 			public const int abc_search_url_text_selected = 2131361808;
 			
-			// aapt resource value: 0x7f0a004f
-			public const int abc_secondary_text_material_dark = 2131361871;
+			// aapt resource value: 0x7f0a0053
+			public const int abc_secondary_text_material_dark = 2131361875;
 			
-			// aapt resource value: 0x7f0a0050
-			public const int abc_secondary_text_material_light = 2131361872;
+			// aapt resource value: 0x7f0a0054
+			public const int abc_secondary_text_material_light = 2131361876;
 			
 			// aapt resource value: 0x7f0a0011
 			public const int accent_material_dark = 2131361809;
@@ -1081,6 +1081,15 @@ namespace GeoList
 			
 			// aapt resource value: 0x7f0a0003
 			public const int cardview_shadow_start_color = 2131361795;
+			
+			// aapt resource value: 0x7f0a0049
+			public const int colorAccent = 2131361865;
+			
+			// aapt resource value: 0x7f0a0047
+			public const int colorPrimary = 2131361863;
+			
+			// aapt resource value: 0x7f0a0048
+			public const int colorPrimaryDark = 2131361864;
 			
 			// aapt resource value: 0x7f0a0004
 			public const int design_fab_shadow_end_color = 2131361796;
@@ -1223,17 +1232,20 @@ namespace GeoList
 			// aapt resource value: 0x7f0a0044
 			public const int switch_thumb_disabled_material_light = 2131361860;
 			
-			// aapt resource value: 0x7f0a0051
-			public const int switch_thumb_material_dark = 2131361873;
+			// aapt resource value: 0x7f0a0055
+			public const int switch_thumb_material_dark = 2131361877;
 			
-			// aapt resource value: 0x7f0a0052
-			public const int switch_thumb_material_light = 2131361874;
+			// aapt resource value: 0x7f0a0056
+			public const int switch_thumb_material_light = 2131361878;
 			
 			// aapt resource value: 0x7f0a0045
 			public const int switch_thumb_normal_material_dark = 2131361861;
 			
 			// aapt resource value: 0x7f0a0046
 			public const int switch_thumb_normal_material_light = 2131361862;
+			
+			// aapt resource value: 0x7f0a004a
+			public const int textColorPrimary = 2131361866;
 			
 			static Color()
 			{
@@ -1880,8 +1892,8 @@ namespace GeoList
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f07007d
-			public const int action0 = 2131165309;
+			// aapt resource value: 0x7f07007b
+			public const int action0 = 2131165307;
 			
 			// aapt resource value: 0x7f070056
 			public const int action_bar = 2131165270;
@@ -1907,8 +1919,8 @@ namespace GeoList
 			// aapt resource value: 0x7f070057
 			public const int action_context_bar = 2131165271;
 			
-			// aapt resource value: 0x7f070081
-			public const int action_divider = 2131165313;
+			// aapt resource value: 0x7f07007f
+			public const int action_divider = 2131165311;
 			
 			// aapt resource value: 0x7f070004
 			public const int action_menu_divider = 2131165188;
@@ -1934,8 +1946,8 @@ namespace GeoList
 			// aapt resource value: 0x7f070033
 			public const int always = 2131165235;
 			
-			// aapt resource value: 0x7f070075
-			public const int art = 2131165301;
+			// aapt resource value: 0x7f070073
+			public const int art = 2131165299;
 			
 			// aapt resource value: 0x7f070031
 			public const int beginning = 2131165233;
@@ -1946,11 +1958,11 @@ namespace GeoList
 			// aapt resource value: 0x7f07004c
 			public const int buttonPanel = 2131165260;
 			
-			// aapt resource value: 0x7f07007a
-			public const int buttons = 2131165306;
+			// aapt resource value: 0x7f070078
+			public const int buttons = 2131165304;
 			
-			// aapt resource value: 0x7f07007e
-			public const int cancel_action = 2131165310;
+			// aapt resource value: 0x7f07007c
+			public const int cancel_action = 2131165308;
 			
 			// aapt resource value: 0x7f070013
 			public const int center = 2131165203;
@@ -1964,8 +1976,8 @@ namespace GeoList
 			// aapt resource value: 0x7f07004e
 			public const int checkbox = 2131165262;
 			
-			// aapt resource value: 0x7f070084
-			public const int chronometer = 2131165316;
+			// aapt resource value: 0x7f070082
+			public const int chronometer = 2131165314;
 			
 			// aapt resource value: 0x7f07001c
 			public const int clip_horizontal = 2131165212;
@@ -1979,8 +1991,8 @@ namespace GeoList
 			// aapt resource value: 0x7f070047
 			public const int contentPanel = 2131165255;
 			
-			// aapt resource value: 0x7f07006d
-			public const int current_location = 2131165293;
+			// aapt resource value: 0x7f07006b
+			public const int current_location = 2131165291;
 			
 			// aapt resource value: 0x7f07004b
 			public const int custom = 2131165259;
@@ -1994,14 +2006,14 @@ namespace GeoList
 			// aapt resource value: 0x7f07003f
 			public const int default_activity_button = 2131165247;
 			
-			// aapt resource value: 0x7f070074
-			public const int default_control_frame = 2131165300;
+			// aapt resource value: 0x7f070072
+			public const int default_control_frame = 2131165298;
 			
 			// aapt resource value: 0x7f070026
 			public const int disableHome = 2131165222;
 			
-			// aapt resource value: 0x7f07007b
-			public const int disconnect = 2131165307;
+			// aapt resource value: 0x7f070079
+			public const int disconnect = 2131165305;
 			
 			// aapt resource value: 0x7f070058
 			public const int edit_query = 2131165272;
@@ -2009,8 +2021,8 @@ namespace GeoList
 			// aapt resource value: 0x7f070016
 			public const int end = 2131165206;
 			
-			// aapt resource value: 0x7f070089
-			public const int end_padder = 2131165321;
+			// aapt resource value: 0x7f070087
+			public const int end_padder = 2131165319;
 			
 			// aapt resource value: 0x7f07000b
 			public const int enterAlways = 2131165195;
@@ -2054,32 +2066,23 @@ namespace GeoList
 			// aapt resource value: 0x7f07003e
 			public const int image = 2131165246;
 			
-			// aapt resource value: 0x7f070088
-			public const int info = 2131165320;
-			
-			// aapt resource value: 0x7f07006b
-			public const int item_latitude = 2131165291;
-			
-			// aapt resource value: 0x7f07006a
-			public const int item_location_label = 2131165290;
-			
-			// aapt resource value: 0x7f07006c
-			public const int item_longitude = 2131165292;
+			// aapt resource value: 0x7f070086
+			public const int info = 2131165318;
 			
 			// aapt resource value: 0x7f070000
 			public const int item_touch_helper_previous_elevation = 2131165184;
 			
-			// aapt resource value: 0x7f070066
-			public const int latitude = 2131165286;
+			// aapt resource value: 0x7f070068
+			public const int latitude = 2131165288;
 			
 			// aapt resource value: 0x7f070018
 			public const int left = 2131165208;
 			
-			// aapt resource value: 0x7f070082
-			public const int line1 = 2131165314;
+			// aapt resource value: 0x7f070080
+			public const int line1 = 2131165312;
 			
-			// aapt resource value: 0x7f070086
-			public const int line3 = 2131165318;
+			// aapt resource value: 0x7f070084
+			public const int line3 = 2131165316;
 			
 			// aapt resource value: 0x7f070024
 			public const int listMode = 2131165220;
@@ -2087,26 +2090,29 @@ namespace GeoList
 			// aapt resource value: 0x7f070040
 			public const int list_item = 2131165248;
 			
-			// aapt resource value: 0x7f070065
-			public const int location_label = 2131165285;
+			// aapt resource value: 0x7f07006a
+			public const int location = 2131165290;
 			
 			// aapt resource value: 0x7f070067
-			public const int longitude = 2131165287;
+			public const int location_label = 2131165287;
 			
-			// aapt resource value: 0x7f070080
-			public const int media_actions = 2131165312;
+			// aapt resource value: 0x7f070069
+			public const int longitude = 2131165289;
 			
-			// aapt resource value: 0x7f070073
-			public const int media_route_control_frame = 2131165299;
+			// aapt resource value: 0x7f07007e
+			public const int media_actions = 2131165310;
 			
-			// aapt resource value: 0x7f07006f
-			public const int media_route_list = 2131165295;
+			// aapt resource value: 0x7f070071
+			public const int media_route_control_frame = 2131165297;
 			
-			// aapt resource value: 0x7f070078
-			public const int media_route_volume_layout = 2131165304;
+			// aapt resource value: 0x7f07006d
+			public const int media_route_list = 2131165293;
 			
-			// aapt resource value: 0x7f070079
-			public const int media_route_volume_slider = 2131165305;
+			// aapt resource value: 0x7f070076
+			public const int media_route_volume_layout = 2131165302;
+			
+			// aapt resource value: 0x7f070077
+			public const int media_route_volume_slider = 2131165303;
 			
 			// aapt resource value: 0x7f070032
 			public const int middle = 2131165234;
@@ -2135,8 +2141,8 @@ namespace GeoList
 			// aapt resource value: 0x7f070011
 			public const int pin = 2131165201;
 			
-			// aapt resource value: 0x7f070076
-			public const int play_pause = 2131165302;
+			// aapt resource value: 0x7f070074
+			public const int play_pause = 2131165300;
 			
 			// aapt resource value: 0x7f070007
 			public const int progress_circular = 2131165191;
@@ -2147,14 +2153,14 @@ namespace GeoList
 			// aapt resource value: 0x7f070050
 			public const int radio = 2131165264;
 			
-			// aapt resource value: 0x7f07006e
-			public const int recycler_view = 2131165294;
+			// aapt resource value: 0x7f07006c
+			public const int recycler_view = 2131165292;
 			
 			// aapt resource value: 0x7f070019
 			public const int right = 2131165209;
 			
-			// aapt resource value: 0x7f070071
-			public const int route_name = 2131165297;
+			// aapt resource value: 0x7f07006f
+			public const int route_name = 2131165295;
 			
 			// aapt resource value: 0x7f07002d
 			public const int screen = 2131165229;
@@ -2201,8 +2207,8 @@ namespace GeoList
 			// aapt resource value: 0x7f070064
 			public const int select_dialog_listview = 2131165284;
 			
-			// aapt resource value: 0x7f070072
-			public const int settings = 2131165298;
+			// aapt resource value: 0x7f070070
+			public const int settings = 2131165296;
 			
 			// aapt resource value: 0x7f07004f
 			public const int shortcut = 2131165263;
@@ -2216,11 +2222,11 @@ namespace GeoList
 			// aapt resource value: 0x7f07002a
 			public const int showTitle = 2131165226;
 			
-			// aapt resource value: 0x7f070069
-			public const int snackbar_action = 2131165289;
+			// aapt resource value: 0x7f070066
+			public const int snackbar_action = 2131165286;
 			
-			// aapt resource value: 0x7f070068
-			public const int snackbar_text = 2131165288;
+			// aapt resource value: 0x7f070065
+			public const int snackbar_text = 2131165285;
 			
 			// aapt resource value: 0x7f070009
 			public const int split_action_bar = 2131165193;
@@ -2237,38 +2243,38 @@ namespace GeoList
 			// aapt resource value: 0x7f07001a
 			public const int start = 2131165210;
 			
-			// aapt resource value: 0x7f07007f
-			public const int status_bar_latest_event_content = 2131165311;
+			// aapt resource value: 0x7f07007d
+			public const int status_bar_latest_event_content = 2131165309;
 			
-			// aapt resource value: 0x7f07007c
-			public const int stop = 2131165308;
+			// aapt resource value: 0x7f07007a
+			public const int stop = 2131165306;
 			
 			// aapt resource value: 0x7f070061
 			public const int submit_area = 2131165281;
 			
-			// aapt resource value: 0x7f070077
-			public const int subtitle = 2131165303;
+			// aapt resource value: 0x7f070075
+			public const int subtitle = 2131165301;
 			
 			// aapt resource value: 0x7f070025
 			public const int tabMode = 2131165221;
 			
-			// aapt resource value: 0x7f070087
-			public const int text = 2131165319;
-			
 			// aapt resource value: 0x7f070085
-			public const int text2 = 2131165317;
+			public const int text = 2131165317;
+			
+			// aapt resource value: 0x7f070083
+			public const int text2 = 2131165315;
 			
 			// aapt resource value: 0x7f070049
 			public const int textSpacerNoButtons = 2131165257;
 			
-			// aapt resource value: 0x7f070083
-			public const int time = 2131165315;
+			// aapt resource value: 0x7f070081
+			public const int time = 2131165313;
 			
 			// aapt resource value: 0x7f070042
 			public const int title = 2131165250;
 			
-			// aapt resource value: 0x7f070070
-			public const int title_bar = 2131165296;
+			// aapt resource value: 0x7f07006e
+			public const int title_bar = 2131165294;
 			
 			// aapt resource value: 0x7f070045
 			public const int title_template = 2131165253;
@@ -2411,85 +2417,82 @@ namespace GeoList
 			public const int abc_select_dialog_material = 2130968599;
 			
 			// aapt resource value: 0x7f040018
-			public const int current_location = 2130968600;
+			public const int design_layout_snackbar = 2130968600;
 			
 			// aapt resource value: 0x7f040019
-			public const int design_layout_snackbar = 2130968601;
+			public const int design_layout_snackbar_include = 2130968601;
 			
 			// aapt resource value: 0x7f04001a
-			public const int design_layout_snackbar_include = 2130968602;
+			public const int design_layout_tab_icon = 2130968602;
 			
 			// aapt resource value: 0x7f04001b
-			public const int design_layout_tab_icon = 2130968603;
+			public const int design_layout_tab_text = 2130968603;
 			
 			// aapt resource value: 0x7f04001c
-			public const int design_layout_tab_text = 2130968604;
+			public const int design_navigation_item = 2130968604;
 			
 			// aapt resource value: 0x7f04001d
-			public const int design_navigation_item = 2130968605;
+			public const int design_navigation_item_header = 2130968605;
 			
 			// aapt resource value: 0x7f04001e
-			public const int design_navigation_item_header = 2130968606;
+			public const int design_navigation_item_separator = 2130968606;
 			
 			// aapt resource value: 0x7f04001f
-			public const int design_navigation_item_separator = 2130968607;
+			public const int design_navigation_item_subheader = 2130968607;
 			
 			// aapt resource value: 0x7f040020
-			public const int design_navigation_item_subheader = 2130968608;
+			public const int design_navigation_menu = 2130968608;
 			
 			// aapt resource value: 0x7f040021
-			public const int design_navigation_menu = 2130968609;
+			public const int location = 2130968609;
 			
 			// aapt resource value: 0x7f040022
-			public const int geo_list_item = 2130968610;
+			public const int Main = 2130968610;
 			
 			// aapt resource value: 0x7f040023
-			public const int Main = 2130968611;
+			public const int mr_media_route_chooser_dialog = 2130968611;
 			
 			// aapt resource value: 0x7f040024
-			public const int mr_media_route_chooser_dialog = 2130968612;
+			public const int mr_media_route_controller_material_dialog_b = 2130968612;
 			
 			// aapt resource value: 0x7f040025
-			public const int mr_media_route_controller_material_dialog_b = 2130968613;
+			public const int mr_media_route_list_item = 2130968613;
 			
 			// aapt resource value: 0x7f040026
-			public const int mr_media_route_list_item = 2130968614;
+			public const int notification_media_action = 2130968614;
 			
 			// aapt resource value: 0x7f040027
-			public const int notification_media_action = 2130968615;
+			public const int notification_media_cancel_action = 2130968615;
 			
 			// aapt resource value: 0x7f040028
-			public const int notification_media_cancel_action = 2130968616;
+			public const int notification_template_big_media = 2130968616;
 			
 			// aapt resource value: 0x7f040029
-			public const int notification_template_big_media = 2130968617;
+			public const int notification_template_big_media_narrow = 2130968617;
 			
 			// aapt resource value: 0x7f04002a
-			public const int notification_template_big_media_narrow = 2130968618;
+			public const int notification_template_lines = 2130968618;
 			
 			// aapt resource value: 0x7f04002b
-			public const int notification_template_lines = 2130968619;
+			public const int notification_template_media = 2130968619;
 			
 			// aapt resource value: 0x7f04002c
-			public const int notification_template_media = 2130968620;
+			public const int notification_template_part_chronometer = 2130968620;
 			
 			// aapt resource value: 0x7f04002d
-			public const int notification_template_part_chronometer = 2130968621;
+			public const int notification_template_part_time = 2130968621;
 			
 			// aapt resource value: 0x7f04002e
-			public const int notification_template_part_time = 2130968622;
+			public const int select_dialog_item_material = 2130968622;
 			
 			// aapt resource value: 0x7f04002f
-			public const int select_dialog_item_material = 2130968623;
+			public const int select_dialog_multichoice_material = 2130968623;
 			
 			// aapt resource value: 0x7f040030
-			public const int select_dialog_multichoice_material = 2130968624;
+			public const int select_dialog_singlechoice_material = 2130968624;
 			
 			// aapt resource value: 0x7f040031
-			public const int select_dialog_singlechoice_material = 2130968625;
-			
-			// aapt resource value: 0x7f040032
-			public const int support_simple_spinner_dropdown_item = 2130968626;
+			public const int support_simple_spinner_dropdown_item = 2130968625;
 			
 			static Layout()
 			{
@@ -2640,6 +2643,9 @@ namespace GeoList
 			
 			// aapt resource value: 0x7f090093
 			public const int Animation_AppCompat_DropDownUp = 2131296403;
+			
+			// aapt resource value: 0x7f090144
+			public const int AppTheme = 2131296580;
 			
 			// aapt resource value: 0x7f090094
 			public const int Base_AlertDialog_AppCompat = 2131296404;

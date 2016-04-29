@@ -3,6 +3,7 @@ using Xamarin.Forms;
 using SQLite;
 using System.Collections.Generic;
 using System.Linq;
+using Android.OS;
 
 namespace GeoList
 {
@@ -16,7 +17,7 @@ namespace GeoList
 			_database.CreateTable<GeoLocation> ();
 		}
 
-		public IEnumerable<GeoLocation> getGeoLocations() {
+		public IList<GeoLocation> getGeoLocations() {
 			return (from t in _database.Table<GeoLocation>() select t).ToList();
 		}
 
